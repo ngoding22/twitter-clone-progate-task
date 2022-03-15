@@ -1,0 +1,102 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+ul,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #3b3f43;
+}
+
+.nav li {
+    padding: 15px 35px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.nav-icon {
+    margin: 0;
+    padding: 0px 5px;
+    display: inline-block;
+}
+
+.tweet-button {
+    padding: 15px 40px;
+    width: 60%;
+    background-color: rgb(29, 155, 240);
+    font-size: 15px;
+    color: white;
+    border-radius: 45px;
+    border-style: none;
+    margin-top: 10px;
+}
+
+.nav li:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 45px;
+    width: 110px;
+}
+
+.container {
+    padding: 0px 20px;
+}
+
+.navigation {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    border-right: 1px solid #eff3f4;
+}
+.fa-twitter {
+    color: rgb(29, 155, 240);
+}
+
+.posts {
+    width: 50%;
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.trendings {
+    position: fixed;
+    width: 20%;
+    display: inline-block;
+    margin-right: 0px;
+    padding: 5px 10px;
+    border-left: 1px solid #eff3f4;
+    height: 100%;
+}
+
+.search-trends {
+    padding: 10px 20px;
+    width: 95%;
+    border-style: none;
+    border-radius: 45px;
+    background-color: #f7f9f9;
+}
+
+.trendings-section {
+    background-color: #f7f9f9;
+    padding: 10px 0px;
+    width: 295px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.trending-card h3,
+h5 {
+    margin: 2px 0px;
+}
+
+.trending-card {
+    margin-bottom: 15px;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.trending-card:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 275px;
+}
